@@ -78,7 +78,7 @@ body {
   position: absolute;
   top: 20px;
   left: 182px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
@@ -125,7 +125,7 @@ body {
   left: 9px;
   color: #1c0221;
   z-index: 20;
-  font-family: "Nunito", serif;
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
@@ -157,7 +157,7 @@ body {
   left: 9px;
   color: #1c0221;
   z-index: 20;
-  font-family: "Nunito", serif;
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
@@ -184,13 +184,13 @@ body {
   z-index: 10;
   /* opacity: 0.4; */
 }
-#txt32{
+#txt32 {
   position: absolute;
   top: 7px;
   left: 9px;
   color: #1c0221;
   z-index: 20;
-  font-family: "Nunito", serif;
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
@@ -222,7 +222,7 @@ body {
   left: 9px;
   color: #1c0221;
   z-index: 20;
-  font-family: "Nunito", serif;
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
@@ -270,7 +270,7 @@ body {
   color: #1c0221;
   /* color:white; */
   z-index: 20;
-  font-family: "Nunito", serif;
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
@@ -283,7 +283,7 @@ body {
   left: 102px;
   color: #1c0221;
   z-index: 20;
-  font-family: "Nunito", serif;
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
@@ -295,7 +295,7 @@ body {
   left: 193px;
   color: #1c0221;
   z-index: 20;
-  font-family: "Nunito", serif;
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
@@ -307,7 +307,7 @@ body {
   left: 240px;
   color: #1c0221;
   z-index: 20;
-  font-family: "Nunito", serif;
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
@@ -359,7 +359,7 @@ body {
   left: 87px;
   color: #1c0221;
   z-index: 34;
-  font-family: "Nunito", serif;
+  font-family: "Nunito", "Varela Round", "Quicksand", "arial";
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
