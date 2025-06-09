@@ -6,7 +6,7 @@ container.addEventListener("mouseout", ctarolloff);
 thereplay.addEventListener("click", replaybanner);
 
 function replaybanner() {
-  startAd();
+  restartAd();
 }
 function ctarollover() {
   TweenMax.to(cta, 0.2, {
@@ -33,6 +33,33 @@ hideElement = function (e) {
   e.style.visibility = "hidden";
 };
 
+function restartAd() {
+  console.log("started");
+  // size setup
+
+  TweenMax.set(thereplay, { visibility: "hidden" });
+  TweenMax.set(".halfsize", { transformOrigin: "left top", scale: 0.5 });
+  TweenMax.set(".regsize", { transformOrigin: "left top", scale: 1 });
+  TweenMax.set(".lgsize", { transformOrigin: "left top", scale: 2 });
+
+  // set up initial positions
+  hideElement(txt1);
+  hideElement(txt2a);
+  hideElement(txt2b);
+  hideElement(txt3);
+  hideElement(dog);
+  hideElement(txt4a);
+  hideElement(txt4b);
+  hideElement(txt4c);
+  hideElement(finalframebg);
+  hideElement(txt5a);
+  hideElement(txt5b);
+  hideElement(txt5c);
+  hideElement(txt5d);
+  hideElement(cta);
+  hideElement(cover);
+  TweenMax.delayedCall(0, intro);
+}
 function startAd() {
   console.log("started");
   startAd2();
